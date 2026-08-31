@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+
+# Local collector state and downloaded collections
+collection.db
+*.db-shm
+*.db-wal
+collections/
+data/
+downloads/
+outputs/
+
+# Local logs and secrets
+*.log
+.env
+.env.*
+!.env.example
